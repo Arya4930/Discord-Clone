@@ -1,0 +1,22 @@
+{
+  "name": "discord-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arya4930/Discord-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arya4930/Discord-Clone/issues"
+  },
+  "homepage": "https://github.com/Arya4930/Discord-Clone#readme",
+  "dependencies": {
+    "wait": "^0.4.2"
+  }
+}

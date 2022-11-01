@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .Discord-Logo {
@@ -39,6 +40,10 @@
 }
 .Header-Options {
     margin-left: 30px;
+    cursor: pointer;
+}
+.Header-Options:hover {
+    text-decoration: underline;
 }
 
 .Discord-Home-Button {
@@ -113,7 +118,7 @@
     height: 30px;
     margin-left: 10px;
     top: 457px;
-    left: 370px;
+    left: 375px;
 }
 .button-font {
     text-align: center;
@@ -137,9 +142,16 @@
 .image-2 {
     position: absolute;
     height: 380px;
-    top: 240px;
-    right: -330px;
     z-index: 2;
+    right: 0;
+    top: 240px;
+}
+.image-3 {
+    position: absolute;
+    height: 380px;
+    z-index: -1;
+    right: 0;
+    top: 240px;
 }
 @media (max-width: 1300px) {
     .image-1,
