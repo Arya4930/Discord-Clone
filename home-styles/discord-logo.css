@@ -1,0 +1,73 @@
+.head {
+    position: absolute;
+    z-index: 5;
+    width: 40.25px;
+    height: 27px;
+    top: 2.75px;
+    left: 10.625px;
+    background: rgb(220, 221, 222);
+    border-radius: 50%;
+}
+
+.wing-top,
+.wing-mid,
+.wing-bottom,
+.eye {
+    position: absolute;
+    background: rgb(220, 221, 222);
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.wing-top {
+    height: 35.375px;
+    width: 12.375px;
+    top: -5.875px;
+    left: 8.125px;
+    transform: rotate(56deg) skewY(7deg);
+    clip-path: inset(7% 0 61% 0 round 6px);
+}
+
+.wing-mid {
+    left: 10.125px;
+    top: 1.5px;
+    height: 32.825px;
+    width: 12.825px;
+    transform: rotate(12deg);
+    clip-path: inset(7% 13% 15% 0 round 12.5px);
+}
+
+.wing-bottom {
+    width: 38.625px;
+    height: 14.5px;
+    top: 17.25px;
+    left: 1.875px;
+    transform: skewY(342deg) rotate(38deg);
+    clip-path: inset(10.325px 14.75px 0 9.5px)
+}
+
+.eye {
+    background: #040714;
+    width: 7.625px;
+    height: 8.75px;
+    top: 14.5px;
+    left: 19.825px;
+}
+
+.group-right {
+    z-index: 10;
+    position: absolute;
+    left: 71px;
+    top: 2px;
+    transform: scaleX(-1);
+}
+.group-left {
+    position: absolute;
+    top: 2px;
+    left: 9px;
+}
+.head {
+    top: 5px;
+    left: 20px;
+    position: absolute;
+}
