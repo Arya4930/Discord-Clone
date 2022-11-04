@@ -1,44 +1,52 @@
-.sidebar {
-    position: fixed;
-    top: 50px;
-    left: 0;
-    bottom: 0;
-    width: 67px;
-    background-color: rgb(32, 34, 37);
-    padding-top: 5px;
+/* width */
+::-webkit-scrollbar {
+    width: 0.1px;
 }
 
-.sidebar-link-1,
-.sidebar-link {
-    border-top: 1px solid rgb(35, 36, 40);
-    height: 76px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 0.1px;
 }
 
-.sidebar-link-1 img,
-.sidebar-link img {
-    height: 24px;
-    margin-bottom: 6px;
-    height: 56px;
-    cursor: pointer;
-    border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 7px;
-}
-.sidebar-link-1 {
-    margin-top: 15px;
-}
-.horizontal-line {
-    top: 17px;
-    border-top: 2px solid rgb(54, 57, 63);
-    left: 20px;
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(27, 28, 31);;
     border-radius: 10px;
-    width: 30px;
-    position: absolute;
+}
+
+.DMS-section {
+    background-color: rgb(47, 49, 54);
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: 159px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Friends-Online {
+    background-color: rgb(151, 154, 157);
+}
+.Friends-Activity {
+    background-color: rgb(151, 154, 157);
+}
+.Friends-1 {
+    font-size: 18px;
+    vertical-align: top;
+}
+.friends-div {
+    width: 230px;
+    cursor: pointer;
     transition: all 0.25s;
-    opacity: 1;
-    z-index: 100;
+}
+.friends-div:hover {
+    max-width: 145px;
+    background-color: rgb(69, 73, 80);
+    color: rgb(255, 255, 257);
+    padding-right: 75px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
 }

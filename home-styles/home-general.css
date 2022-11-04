@@ -8,3 +8,10 @@ p {
     font-family: Roboto, Arial;
     color: white;
 }
+.main {
+    margin-left: 60px;
+    color: rgb(151, 154, 157);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
