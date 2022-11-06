@@ -3,6 +3,7 @@ body {
     font-family: Roboto, Arial;
     margin: 0px;
     color: white;
+    user-select: none;
 }
 p {
     font-family: Roboto, Arial;
