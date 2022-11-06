@@ -4,6 +4,7 @@ body {
     margin: 0px;
     color: white;
     user-select: none;
+    overflow-y: hidden; 
 }
 p {
     font-family: Roboto, Arial;
