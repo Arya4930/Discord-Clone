@@ -27,9 +27,6 @@
     align-items: flex-start;
     overflow-y: scroll;
 }
-.Friends-Activity {
-    background-color: rgb(151, 154, 157);
-}
 
 .Nitro-option,
 .Friends-1 {
@@ -260,4 +257,108 @@
 }
 .User-AVS {
     border-radius: 50%;
+}
+
+
+
+.Online-Number {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.friend-names-conatiner {
+    border-top: 1px solid rgb(66, 70, 77);
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.1s;
+}
+.friend-names-conatiner:hover {
+    background-color: rgb(66, 70, 77);
+}
+.Online-friend-av {
+    margin-top: 10px;
+    height: 37px;
+    border-radius: 50%;
+}
+.friend-name {
+    position: relative;
+    font-size: 17px;
+    top: -40px;
+    left: 47px;
+    color: white;
+}
+.friend-status {
+    font-size: 14px;
+    position: relative;
+    top: -38px;
+    left: 47px;
+}
+.side-options-div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 45px 45px;
+    left: 540px;
+    width: 10px;
+    margin-right: -100px;
+    top: -77px;
+}
+.side-options-more-container,
+.side-options-message-container {
+    margin-right: 5px;
+    background-color: rgb(47, 49, 54);
+    padding: 10px;
+    border-radius: 50%;
+}
+.side-options-message,
+.side-options-more {
+    height: 17px;
+    align-items: center;
+    margin-left: 2px;
+    margin-top: 1px;
+}
+.Friends-Activity-Header {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.containor-1 {
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgb(47, 49, 54);
+    height: 150px;
+    width: 320px;
+    margin-left: 22px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(66, 70, 77);
+}
+.containor-1:hover {
+    border: 1px solid rgb(32, 34, 37);
+    background-color: rgb(32, 34, 37);
+}
+.side-image {
+    position: relative;
+    height: 30px;
+    top: -70px;
+    left: 270px;
+    border-radius: 5px;
+}
+.containor-2 {
+    position: relative;
+    background-color: rgb(54, 57, 63);
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    top: -55px;
+}
+.friend-status-2 {
+    font-size: 12px;
 }

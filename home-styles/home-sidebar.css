@@ -9,17 +9,17 @@
     overflow-y: scroll;
 }
 
-.sidebar ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0;
 }
 
 /* Track */
-.sidebar ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     border-radius: none;
 }
 
 /* Handle */
-.sidebar ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     border-radius: 00px;
 }
 
