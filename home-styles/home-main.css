@@ -443,8 +443,24 @@
     left: 30%;
     margin-left: -80px;
     z-index: 100;
+    border-radius: 10px;
 }
-
+.user-banner {
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(27, 27, 21);
+}
+.user-pfp {
+    position: relative;
+    top: -60px;
+    left: 10px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(41, 43, 47);
+}
 /* Popup arrow */
 .footer-grid .popuptext::after {
     content: "";
