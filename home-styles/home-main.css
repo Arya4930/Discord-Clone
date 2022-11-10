@@ -435,7 +435,7 @@
 .footer-grid .popuptext {
     visibility: hidden;
     width: 330px;
-    height: 500px;
+    height: 510px;
     background-color: rgb(41, 43, 47);
     position: absolute;
     z-index: 1;
@@ -462,7 +462,7 @@
     border: 5px solid rgb(41, 43, 47);
 }
 .main-items-container {
-    height: 360px;
+    height: 380px;
     width: 300px;
     border-radius: 10px;
     background-color: rgb(24, 25, 28);
@@ -481,30 +481,19 @@
     z-index: 10000;
 }
 .User-name-discriminitor {
-    width: 250px;
+    width: 280px;
     margin-left: 12px;
     font-size: 21px;
     padding-top: 13px;
     border-bottom: 1px solid rgb(66, 70, 77);
     padding-bottom: 15px;
 }
-/* Popup arrow */
-.footer-grid .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
 
 /* Toggle this class - hide and show the popup */
 .footer-grid .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 0.15s;
+    animation: fadeIn 0.15s;
 }
 
 /* Add animation (fade in the popup) */
@@ -526,4 +515,70 @@
     to {
         opacity: 1;
     }
+}
+
+h5 {
+    position: relative;
+    top: -10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+}
+.about-me-context {
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.member-since-context {
+    position: relative; 
+    font-size: 15px; 
+    color: rgb(182, 184, 185); 
+    top: -40px;
+    left: 10px;
+    padding-bottom: 15px;
+    width: 280px;
+    border-bottom: 1px solid rgb(66, 70, 77);
+}
+.status-container {
+    height: auto;
+    width: 280px;
+    margin-left: 10px;
+    position: relative;
+    top: -20px;
+    border-bottom: 1px solid rgb(66, 70, 77);
+}
+.idle-status-pic-popup {
+    height: 13px;
+    position: relative;
+    top: -5px;
+    left: 10px;
+    z-index: 5;
+}
+.idle-status-popup {
+    position: relative;
+    top: -5px;
+    left: 20px;
+    z-index: 5;
+}
+.chevron-right-emoji {
+    position: relative;
+    left: 215px;
+    z-index: 5;
+}
+.status-written-popup {
+    position: relative;
+    left: -4px;
+    width: 289px;
+    height: 30px;
+    position: relative;
+    top: -10px;
+    z-index: 4;
+    border-radius: 2px;
+    transition: all 0.25s;
+}
+.status-written-popup:hover {
+    background-color: #5865f2;
+    color: white;
 }
