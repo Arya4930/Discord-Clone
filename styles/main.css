@@ -153,10 +153,102 @@
     right: 0;
     top: 240px;
 }
-@media (max-width: 1300px) {
-    .image-1,
-    .image-2 {
+
+
+
+@media (max-width: 700px) {
+    .image-2,
+    .image-3 {
         opacity: 0;
         transition: all 0;
+    }
+    .image-1 {
+        position: absolute;
+        top: 600px;
+        left: -190px;
+    }
+    .header {
+        height: 50px;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+    }
+    
+    .left-section {
+        width: auto;
+        font-size: 20px;
+        position: relative;
+        left: 0;
+        cursor: pointer;
+    }
+    
+    .Discord-Logo {
+        margin-left: 0px;
+        height: 70px;
+    }
+    
+    .right-section {
+        opacity: 0;
+        position: absolute;
+    }
+    .middle-section {
+        opacity: 0;
+        position: absolute;
+    }
+    
+    .front-page-paras {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 120;
+        margin-top: 70px;
+    }
+    .main-heading {
+        font-weight: bolder;
+        font-size: 20px;
+        margin-left: 100px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .main-para {
+        font-size: 20px;
+        margin-right: 0px;
+        margin-left: 100px;
+        font-family: 'Oswald', sans-serif;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .Main-Buttons {
+        margin-top: 40px;
+    }
+    .Open-Discord-Button {
+        font-weight: bold;
+        margin-right: 10px;
+        background-color: white;
+        color: rgb(41, 41, 41);
+        height: 50px;
+        width: 300px;
+        cursor: pointer;
+        border: white solid;
+        border-radius: 100px;
+        transition: all 0.25s;
+        font-size: 13px;
+        z-index: 13;
+    }
+    .Download-Button {
+        opacity: 0;
+        position: absolute;
+    }
+    .Download-image {
+        position: absolute;
+        height: 30px;
+        margin-left: 10px;
+        top: 515px;
+        left: 60px;
+    }
+    .button-font {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 200px;
     }
 }
